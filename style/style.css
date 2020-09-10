@@ -159,6 +159,7 @@
 .nu-pogodi-project, .weather-widget-project {
   padding-left: 30px;
 }
+
 .nu-pogodi-project::before {
   content: '';
   height: 10px;
@@ -169,7 +170,6 @@
   top: 10px;
   left: 15px;
 }
-
 .weather-widget-project::before {
   content: '';
   height: 10px;

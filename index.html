@@ -4,34 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Curriculum vitae</title>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
   <section class="section-main">
     <div class="container">
       <div class="row">
-        <div class="col-sm-4">
-          <img class="main-image" src="images/main-image.jpg" alt="main-img">       
+        <div class="col-4">
+          <img class="main-image" src="images/main-photo.jpg" alt="main-img">       
         </div>
 
-        <div class="col">
-          <div class="header">
-            <h1 class="name"><span class="first-name">Kirpichnik </span> Dmitry</h1>
-            <span class="position">Junior Front-End Developer</span>
+        <div class="col-8">
+          <div class="row">
+            <div class="col-7">
+              <div class="name">
+                <span class="last-name">Kirpichnik</span>
+                <span class="first-name">Dmitry</span>
+              </div>
+            </div>
+            <div class="col-5">
+              <span class="position">Front-End Developer</span>
+            </div>
           </div>
           
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-7">
               <h3 class="info email">dmtrlgvch@gmail.com</h3>
               <h3 class="info phone-number">+380954976601</h3>
               <h3 class="info linkedin">linkedin.com/in/dmtrlgvch</h3>
               <h3 class="info github">github.com/dmtrlgvch</h3>
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-5">
               <h3 class="info location">Kharkiv/Ukraine</h3>
-              <h3 class="info age">24 years old</h3>
+              <h3 class="info age">25 years old</h3>
               <h3 class="info english-level">Intermediate english</h3>
               <h3 class="info skype">Skype: dmtrlgvch</h3>
             </div>
@@ -46,14 +53,14 @@
   <section class="section-skills">
     <div class="container">
       <div class="row">     
-        <div class="col-sm-6">
-          <h3 class="skills-title">Skills</h3>
+        <div class="col-6">
+          <h3 class="section-title">Skills</h3>
           <div class="row mb-4">
-            <div class="col-sm-3">
+            <div class="col-3">
               <span class="skill html">HTML5</span>
             </div>
 
-            <div class="col-sm-3">
+            <div class="col-3">
               <span class="skill css">CSS3</span>
             </div>
 
@@ -63,11 +70,11 @@
           </div>
 
           <div class="row mb-4">
-            <div class="col-sm-3">
+            <div class="col-3">
               <span class="skill react">React</span>
             </div>
 
-            <div class="col-sm-3">
+            <div class="col-3">
               <span class="skill redux">Redux</span>
             </div>
 
@@ -77,8 +84,8 @@
           </div>
 
           <div class="row mb-4">
-            <div class="col-sm-3">
-              <span class="skill node-js">Node.js</span>
+            <div class="col-3">
+              <span class="skill vue-js">Vue.js</span>
             </div>
 
             <div class="col">
@@ -87,14 +94,14 @@
           </div>
         </div>
 
-        <div class="col-sm-6">
-          <h3 class="skills-title">Tools</h3>
+        <div class="col-6">
+          <h3 class="section-title">Tools</h3>
           <div class="row mb-4">
-            <div class="col-sm-3">
+            <div class="col-3">
               <span class="tool git">Git</span>
             </div>
 
-            <div class="col-sm-3">
+            <div class="col-3">
               <span class="tool gulp">Gulp</span>
             </div>
 
@@ -104,18 +111,12 @@
           </div>
 
           <div class="row mb-4">
-            <div class="col-sm-3">
+            <div class="col-3">
               <span class="tool figma">Figma</span>
             </div>
 
-            <div class="col-sm-3">
+            <div class="col-3">
               <span class="tool adobe-xd">AdobeXD</span>
-            </div>
-          </div>
-
-          <div class="row mb-4">
-            <div class="col">
-              <span class="tool photoshop">Photoshop</span>
             </div>
           </div>
         </div>
@@ -125,21 +126,37 @@
     </div>
   </section>
 
+  <section class="section-experience">
+    <div class="container">
+      <h2 class="section-title after">Experience</h2>
+      <div class="row">
+        <div class="col-4">
+          <h3 class="job-name">Business Automatics</h3>
+          <p class="period">Feb. 2021 - Apr. 2021</p>
+        </div>
+        <div class="col-4">
+          <h3 class="job-name">1World Online R&D Сenter (Business Automatics)</h3>
+          <p class="period">Apr. 2021 - Now</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="section-education">
     <div class="container">
-      <h2 class="education-title">Education</h2>
+      <h2 class="section-title after">Education</h2>
       <div class="row">
-        <div class="col">
-          <h3 class="name-institution">ESI «Karazin Banking Institute» of V. N. Karazin Kharkiv National University</h3>
-          <p class="education-period">Sep. 2015 - Dec. 2020</p>
+        <div class="col-4">
+          <h3 class="institution-name">ESI «Karazin Banking Institute» of V. N. Karazin Kharkiv National University</h3>
+          <p class="period">Sep. 2015 - Dec. 2020</p>
         </div>
-        <div class="col">
-          <h3 class="name-institution">Hillel IT School <br> Front-End Basic</h3>
-          <p class="education-period">Sep. 2019 - Nov. 2019</p>
+        <div class="col-4">
+          <h3 class="institution-name">Hillel IT School <br> Front-End Basic</h3>
+          <p class="period">Sep. 2019 - Nov. 2019</p>
         </div>
-        <div class="col">
-          <h3 class="name-institution">Hillel IT School <br> Front-End Pro</h3>
-          <p class="education-period">Dec. 2019 - Apr. 2020</p>
+        <div class="col-4">
+          <h3 class="institution-name">Hillel IT School <br> Front-End Pro</h3>
+          <p class="period">Dec. 2019 - Apr. 2020</p>
         </div>
       </div>
     </div>
@@ -147,36 +164,28 @@
 
   <section class="section-projects">
     <div class="container">
-      <h2 class="projects-title">Last Projects</h2>
-      <div class="row mb-5">
-        <div class="col-6">
-          <div class="nu-pogodi-project">
+      <h2 class="section-title">Last Projects</h2>
+      <div class="row">
+        <div class="col-12 mb-5">
+          <div class="project">
             <h3 class="project-name">
               NuPogodi Game
             </h3>
-            <p class="project-period">Jun. 2020</p>
+            <p class="period">Jun. 2020</p>
             <p class="project-description">The game is based on the game 80th Elektronika "Nu, pogodi!". Сreated using HTML and JavaScript.</p>
           </div>
         </div>
-      </div>
-
-      <div class="row">
-        <div class="col-6">
-          <div class="weather-widget-project">
+        <div class="col-12">
+          <div class="project">
             <h3 class="project-name">
               Weather Widget
             </h3>
-            <p class="project-period">Aug. 2020</p>
+            <p class="period">Aug. 2020</p>
             <p class="project-description">The weather widget can display the current weather, a hourly weather, a weather forecast for the next few days. Written on React</p>
           </div>
-        </div>
+        </div>  
       </div>
-      
-     
-
-
     </div>
-
   </section>
   
 

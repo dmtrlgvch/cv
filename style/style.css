@@ -32,13 +32,13 @@
   color: #939393;
 }
 .section-skills, .section-education, .section-projects, .section-experience {
-  padding: 35px 0;
+  padding: 30px 0;
 }
 .section-title {
   position: relative;
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 .after::after {
   position: absolute;
@@ -46,7 +46,7 @@
   height: 1px;
   width: 100%;
   background-color: #D9E0F1;
-  top: 68px;
+  top: 48px;
   left: 1px;
 }
 .skill, .tool{

@@ -60,10 +60,10 @@ body {
   font-weight: 400;
   color: #000;
   background-color: #fff;
-  background-image: url('../../images/react-bg.png');
+  /* background-image: url('../../images/react-bg.png');
   background-repeat: no-repeat;
   background-position-x: 740px;
-  background-position-y:  1260px;
+  background-position-y:  1260px; */
 }
 form *{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

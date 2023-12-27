@@ -164,6 +164,9 @@ ul li::before {
 .react::before {
   background-image: url('../images/react-logo.png');
 } 
+.next::before {
+  background-image: url('../images/nextjs-logo.png');
+} 
 .redux::before {
   background-image: url('../images/redux-logo.png');
 } 
